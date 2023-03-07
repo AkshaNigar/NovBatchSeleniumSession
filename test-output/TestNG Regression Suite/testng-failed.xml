@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [TestNG Regression Suite]" parallel="tests">
+  <test thread-count="3" verbose="4" name="RegisterPageOpenCark Test(failed)" parallel="tests">
+    <parameter name="browser" value="edge"/>
+    <parameter name="url" value="https://naveenautomationlabs.com/opencart/index.php?route=account/register"/>
+    <classes>
+      <class name="testngSessions.RegisterPageOpenCarkTest">
+        <methods>
+          <include name="creatUser"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testngSessions.RegisterPageOpenCarkTest -->
+    </classes>
+  </test> <!-- RegisterPageOpenCark Test(failed) -->
+</suite> <!-- Failed suite [TestNG Regression Suite] -->

@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">TestNG Regression Suite</th></tr>
+<tr><td><a href="#t0">LogInOpenCart Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">9,669</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">HomePageOpenCartTest Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">13,611</td><td></td><td></td></tr>
+<tr><td><a href="#t2">RegisterPageOpenCark Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">24,684</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">7</th><th class="num">0</th><th class="num attn">1</th><th class="num">47,964</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG Regression Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LogInOpenCart Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testngSessions.LogInOpenCartTest</td><td><a href="#m0">h2ListSize</a></td><td rowspan="1">1677001991790</td><td rowspan="1">23</td></tr><tr class="passedeven"><td><a href="#m1">headerList</a></td><td rowspan="1">1677001990927</td><td rowspan="1">175</td></tr><tr class="passedeven"><td><a href="#m2">logIn</a></td><td rowspan="1">1677001991104</td><td rowspan="1">682</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">HomePageOpenCartTest Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testngSessions.HomePageOpenCartTest</td><td><a href="#m3">LogoIsPresent</a></td><td rowspan="1">1677001995937</td><td rowspan="1">40</td></tr><tr class="passedeven"><td><a href="#m4">footerLinkCount</a></td><td rowspan="1">1677001995978</td><td rowspan="1">14</td></tr><tr class="passedeven"><td><a href="#m5">getTitle</a></td><td rowspan="1">1677001995993</td><td rowspan="1">7</td></tr><tr class="passedeven"><td><a href="#m6">getUrl</a></td><td rowspan="1">1677001996001</td><td rowspan="1">7</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">RegisterPageOpenCark Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testngSessions.RegisterPageOpenCarkTest</td><td><a href="#m7">creatUser</a></td><td rowspan="1">1677001994211</td><td rowspan="1">12658</td></tr></tbody>
+</table>
+<h2>LogInOpenCart Test</h2><h3 id="m0">testngSessions.LogInOpenCartTest#h2ListSize</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testngSessions.LogInOpenCartTest#headerList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testngSessions.LogInOpenCartTest#logIn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>HomePageOpenCartTest Test</h2><h3 id="m3">testngSessions.HomePageOpenCartTest#LogoIsPresent</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testngSessions.HomePageOpenCartTest#footerLinkCount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testngSessions.HomePageOpenCartTest#getTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testngSessions.HomePageOpenCartTest#getUrl</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>RegisterPageOpenCark Test</h2><h3 id="m7">testngSessions.RegisterPageOpenCarkTest#creatUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;Your Account Has Been Created!&quot;. Current title: &quot;Register Account&quot; (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 110.0.1587.50, ms:edgeOptions: {debuggerAddress: localhost:51207}, msedge: {msedgedriverVersion: 110.0.1587.50 (05bf83b2e806..., userDataDir: C:\Users\KMA66F~1.AKS\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51207/devtoo..., se:cdpVersion: 110.0.1587.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f6773f787b81e4d82fbe209f5ddb3d23
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at testngSessions.RegisterPageOpenCarkTest.creatUser(RegisterPageOpenCarkTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
